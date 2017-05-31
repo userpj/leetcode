@@ -36,7 +36,7 @@ public class Solution {
 }
 ```
 
-### leet Answer
+### better Answer
 
 ```java
 public class Solution {
