@@ -23,7 +23,7 @@ The median is (2 + 3)/2 = 2.5
 
 ### my answer
 
-1.合并两数组，O(m+n)，[Time Limit Exceeded ]
+合并两数组，O(m+n)，[Time Limit Exceeded ]
 
 ```java
 public class Solution {
@@ -50,6 +50,59 @@ public class Solution {
         double result = (part1+part2)/2.0;
         return result;
     }
+}
+```
+
+### better answer
+
+分治，O(log(m+n))
+
+算法思想：
+
+求合并数组的中位数，即求合并数组的第(m+n+1)/2小的数。
+
+令k = (m+n+1)/2。
+
+如果a[k/2-1]<b[k/2-1]，则a[k/2-1]之前的数全是小于合并数组k/2小的数；
+
+剩k/2的数，考虑a[k/2]~a[k/2+k/4]的数，b[0]~b[k/4]的数。
+
+```java
+public class Solution {
+	public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+		int n = nums1.length;
+		int m = nums2.length;
+		int k =  (n + m + 1) /2;
+		if((m+n) % 2 != 0 ) return getkth(nums1,0,nums2,0,k);
+		return (getkth(nums1, 0, nums2, 0, k) + getkth(nums1, 0, nums2, 0, k+1)) /2.0;
+	}
+    
+	public double getkth(int[] nums1, int start1, int[] nums2, int start2, int k) {
+		//nums1被扫描完全，nums2剩下的需全部计入。
+		if(start1 > nums1.length - 1) return nums2[start2 + k - 1];
+		if(start2 > nums2.length - 1) return nums1[start1 + k - 1];
+		//最小值
+		if(k == 1) return Math.min(nums1[start1], nums2[start2]);
+		
+		int mid1 = Integer.MAX_VALUE, mid2=Integer.MAX_VALUE;
+        //当start1+k/2-1 >= nums1.length时，num2的k/2个数需全部计入，否则无法达到第k小。
+		if(start1 + k/2 - 1 < nums1.length) mid1 = nums1[start1 + k/2 -1];
+		if(start2 + k/2 - 1 < nums2.length) mid2 = nums2[start2 + k/2 -1];
+		
+		if(mid1 < mid2) {
+          //k-k/2避免了遗漏，比如k=3，先计算了top1。剩余计算了top2。保证了计算完全。
+			return getkth(nums1, start1 + k/2, nums2, start2, k-k/2);
+         /*nums1:[1,2] , nums2:[1,2]
+          *mid1 = 1, mid2 =1
+          *return 1.000
+          *剩余数未被计算。
+          */
+		//} else if (mid1 == mid2){
+		//	return (double)mid1;
+		}else {
+			return getkth(nums1, start1, nums2, start2 + k/2, k-k/2);
+		}
+	}
 }
 ```
 
