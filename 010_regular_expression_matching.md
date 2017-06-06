@@ -30,7 +30,7 @@ if p.charAt(j) == s.charAt(i) || p.charAt(j) =='.': dp[i][j] = dp[i-1][j-1]
 ```java
 if p.charAt(j) == '*':
 	if p.charAt(j-1) ! = s.charAt(i) : dp[i][j] = dp[i][j-2] //s:ac p: ab*c
-    if p.charAt(i-1) == s.charAt(i) || p.charAt(i-1) == '.':
+    if p.charAt(j-1) == s.charAt(i) || p.charAt(j-1) == '.':
 		dp[i][j] = dp[i-1][j] //s:aaaaaaaac p:a*c
         || dp[i][j] = dp[i][j-1] //s:ac p:a*c
         || dp[i][j] = dp[i][j-2] //s:ac p:aa*c
