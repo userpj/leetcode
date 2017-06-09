@@ -13,6 +13,14 @@
 * [45. Jump Game II](Algorithms/045_jump_game_ii.md)
 * [55. Jump Game](Algorithms/055_jump_game.md)
 * [88. Merge Sorted Array](Algorithms/088_merged_sorted_array.md)
+* [121. Best Time to Buy and Sell Stock](Algorithms/121_best_time_to_buy_and_sell_stock.md)
+* [122. Best Time to Buy and Sell Stock II](Algorithms/122_best_time_to_buy_and_sell_stock_ii.md)
+* [123. Best Time to Buy and Sell Stock III](Algorithms/123_best_time_to_buy_and_sale_stock_iii.md)
+* [162_find_peak_element.md](Algorithms/162_find_peak_element.md)
+* [268. Missing Number](Algorithms/268_missing_number.md)
+* [287. Find the Duplicate Number](Algorithms/287_find_the_duplicate_number.md)
+* [289. Game of Life](Algorithms/289_Game_of_Life.md)
+* [454. 4Sum II](Algorithms/454_4sum_ii.md)
 
 ## Hash
 
@@ -20,6 +28,9 @@
 * [3. Longest Substring Without Repeating Characters](Algorithms/003_Longest_Substring_Without_Repeating_Characters.md)
 * [4. Median of Two Sorted Arrays](Algorithms/004_median_of_two_sorted_arrays.md)
 * [36. Valid Sudoku](Algorithms/036_valid_sudoku.md)
+* [567. Permutation in String](Algorithms/567_permutation_in_string.md)
+* [594. Longest Harmonious Subsequence](Algorithms/594_Longest_Harmonious_Subsequence.md)
+* [599. Minimum Index Sum of Two Lists](Algorithms/599_minimum_index_sum_of_two_lists.md)
 
 ## List
 * [2. Add Two Numbers](Algorithms/002_add_two_numbers.md)
@@ -31,6 +42,10 @@
 * [82. Remove Duplicates from Sorted List II](Algorithms/082_Remove_Duplicates_from_Sorted_List_II.md)
 * [83. Remove Duplicates from Sorted List](Algorithms/083_Remove_Duplicates_from_Sorted_List.md)
 * [86. Partition List](Algorithms/086_partition_list.md)
+* [141. Linked List Cycle](Algorithms/141_linked_list_cycle.md)
+* [142. Linked List Cycle II](Algorithms/142_linked_list_cycle.md)
+* [287. Find the Duplicate Number](Algorithms/287_find_the_duplicate_number.md)
+* [445. Add Two Numbers](Algorithms/445_add_two_numbers.md)
 
 ## String
 * [3. Longest Substring Without Repeating Characters](Algorithms/003_Longest_Substring_Without_Repeating_Characters.md)
@@ -41,22 +56,35 @@
 * [20. Valid Parentheses](Algorithms/020_valid_parentheses.md)
 * [28. Implement strStr](Algorithms/028_implememt_strstr.md)
 * [32. Longest Valid Parentheses](Algorithms/032_longest_valid_parentheses.md)
+* [551. Student Attendance Record I](Algorithms/551_student_attendance_record_i.md)
+* [556. Next Greater Element III](Algorithms/556_next_greater_element_iii.md)
+* [557. Reverse Words in a String III](Algorithms/557_reverse_words_in_string_iii.md)
+* [567. Permutation in String](Algorithms/567_permutation_in_string.md)
 
 ## Divide and Conquer
 * [4. Median of Two Sorted Arrays](Algorithms/004_median_of_two_sorted_arrays.md)
 * [33. Search in Rotated Sorted Array](Algorithms/033_search_in_rolated_array.md)
 * [35. Search Insert Position](Algorithms/035_search_insert_position.md)
+* [162. Find Peak Element](Algorithms/162_find_peak_element.md)
+* [287. Find the Duplicate Number](Algorithms/287_find_the_duplicate_number.md)
 
 ## Integer
 * [7. Reverse Integer](Algorithms/007_reverse_integer.md)
 * [9. Palindrome Number](Algorithms/009_palindrome_number.md)
 * [12. Integer to Roman](Algorithms/012_integer_to_roman.md)
+* [263. Ugly Number](Algorithms/263_ugly_number.md)
+* [264. Ugly Number II](Algorithms/264_ugly_number_ii.md)
+* [313. Super Ugly Number](Algorithms/313_super_ugly_number.md)
 
 ## DP
 * [10. Regular Expression Matching](Algorithms/010_regular_expression_matching.md)
 * [32. Longest Valid Parentheses](Algorithms/032_longest_valid_parentheses.md)
 * [44. Wildcard Matching](Algorithms/044_wildcard_matching.md)
 * [91. Decode Ways](Algorithms/091_Decode_Ways.md)
+* [123. Best Time to Buy and Sell Stock III](Algorithms/123_best_time_to_buy_and_sale_stock_iii.md)
+* [188. Best Time to Buy and Sell Stock IV](Algorithms/188_best_time_to_buy_and_sale_a_stock_iv.md)
+* [264. Ugly Number II](Algorithms/264_ugly_number_ii.md)
+* [600. Non-negative Integers without Consecutive Ones](Algorithms/600_Non-negative_Integers_without_Consecutive_Ones.md)
 
 ## Stack
 
@@ -66,10 +94,19 @@
 ## Greedy
 * [45. Jump Game II](Algorithms/045_jump_game_ii.md)
 * [55. Jump Game](Algorithms/055_jump_game.md)
+* [122. Best Time to Buy and Sell Stock II](Algorithms/122_best_time_to_buy_and_sell_stock_ii.md)
+* [445. Add Two Numbers](Algorithms/445_add_two_numbers.md)
 
 ## Tree
 * [100. Same Tree](Algorithms/100_same_tree.md)
 
 ## Depth-first Search
 * [100. Same Tree](Algorithms/100_same_tree.md)
+
+## Bit Maniputation
+* [136. Single Number](Algorithms/136_single_number.md)
+* [137. Single Number II](Algorithms/137__single_number_ii.md)
+* [260. Single Number III](Algorithms/177_single_number_iii.md)
+* [268. Missing Number](Algorithms/268_missing_number.md)
+* [371. Sum of Two Integers](Algorithms/371_sum_of_two_integers.md)
 
