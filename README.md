@@ -98,7 +98,10 @@
 * [445. Add Two Numbers](Algorithms/445_add_two_numbers.md)
 
 ## Tree
+* [94. Binary Tree Inorder Traversal](Algorithms/094_binary_tree_inorder_traversal.md)
+* [98. Validate Binary Search Tree](Algorithms/098_validate_binary_search.md)
 * [100. Same Tree](Algorithms/100_same_tree.md)
+* [101. Symmetric Tree](Algorithms/101_symmetric_tree.md)
 
 ## Depth-first Search
 * [100. Same Tree](Algorithms/100_same_tree.md)
