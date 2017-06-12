@@ -102,6 +102,7 @@
 * [98. Validate Binary Search Tree](Algorithms/098_validate_binary_search.md)
 * [100. Same Tree](Algorithms/100_same_tree.md)
 * [101. Symmetric Tree](Algorithms/101_symmetric_tree.md)
+* [104. Maximum Depth of Binary Tree](Algorithms/104_maximum_depth_of_binary_tree.md)
 
 ## Depth-first Search
 * [100. Same Tree](Algorithms/100_same_tree.md)
